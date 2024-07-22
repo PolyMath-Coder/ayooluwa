@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -uses: actions/checkout@v2
-      -name: hello world
+      - name: hello world
         run: echo "what is up today"
         shell: bash
   
