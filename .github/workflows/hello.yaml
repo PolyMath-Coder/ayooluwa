@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: hello world
-        run: echo "what is up today"
+        run: echo "what is up today even right now..."
         shell: bash
   
   goodbye:
